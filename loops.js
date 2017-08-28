@@ -9,3 +9,11 @@ function forLoop(array) {
   }
 return array;
 }
+
+function whileLoop(number) {
+  var i = number;
+  while(number>0) {
+    console.log(number);
+    number--;
+  }
+}
